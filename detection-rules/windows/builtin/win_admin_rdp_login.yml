@@ -17,7 +17,7 @@ detection:
         EventID: 4624
         LogonType: 10
         AuthenticationPackageName: Negotiate
-        AccountName: 'Admin-*'
+        AccountName: 'Admin*'
     condition: selection
 falsepositives:
     - Legitimate administrative activity

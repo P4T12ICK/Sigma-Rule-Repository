@@ -22,5 +22,3 @@ falsepositives:
     - Domain Controller Logs
     - Local accounts managed by privileged account management tools
 level: low
-
-
