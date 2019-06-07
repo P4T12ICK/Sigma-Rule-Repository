@@ -56,10 +56,13 @@ rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObj
 ```
 
 ## Result
+Splunk
 
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/sysmon_rundll32_net_connections.png)
 
 ## Note
-
+- Detection rule successfully tested.
+- It can be the case that powershell is used in the Javascript, then the Image is powershell instead of rundll32.
 
 
 
