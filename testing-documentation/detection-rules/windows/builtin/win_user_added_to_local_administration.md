@@ -32,7 +32,9 @@ net localgroup Administrators ironman /add
 ## Result
 Splunk
 
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/win_user_added_to_local_administrators_test.png)
 
 ## Note
 - Added field mapping GroupName: Group_Name for Splunk
+- Successful tested
 
