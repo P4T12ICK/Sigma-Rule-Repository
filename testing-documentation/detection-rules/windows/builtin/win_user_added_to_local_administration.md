@@ -30,9 +30,9 @@ net localgroup Administrators ironman /add
 ```
 
 ## Result
-
+Splunk
 
 
 ## Note
-
+- Added field mapping GroupName: Group_Name for Splunk
 
