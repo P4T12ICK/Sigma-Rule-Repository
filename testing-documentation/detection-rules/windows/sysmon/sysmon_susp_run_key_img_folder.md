@@ -47,7 +47,9 @@ reg add HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run /v Test
 
 ## Result
 
+Splunk
 
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/sysmon_susp_run_key_img_folder_test.png)
 
 ## Note
 - level was missing in the Sigma detection rule.
