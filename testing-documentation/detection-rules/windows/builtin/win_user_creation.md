@@ -38,7 +38,7 @@ net user ironman test123!45 /add
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/win_user_creation_test.png)
 
 ## Note
 - Detection rule was tested successfully.
