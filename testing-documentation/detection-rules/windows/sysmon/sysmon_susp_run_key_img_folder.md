@@ -1,3 +1,7 @@
+# Testing Documentation sysmon_susp_run_key_img_folder
+
+## Detection Rule
+```
 title: New RUN Key Pointing to Suspicious Folder
 status: experimental
 description: Detects suspicious new RUN key element pointing to an executable in a suspicious folder
@@ -33,4 +37,24 @@ fields:
 falsepositives:
     - Software with rare behaviour
 level: medium
+```
+
+## Attack Simulation
+Created a new Regsitry Run Key with the following command:
+```
+reg add HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run /v Test /t REG_SZ /d C:\Windows\Temp\evil.exe
+```
+
+## Result
+
+
+
+## Note
+- level was missing in the Sigma detection rule.
+- The Detection Rule was tested successfully.
+
+
+
+
+
 
