@@ -41,7 +41,7 @@ SchTasks /Create /SC Daily /TN "My Task" /TR "C:Test.bat"
 
 Splunk
 
-![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/win_susp_schtask_creation_test.png)
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1053/win_susp_schtask_creation_test.png)
 
 ## Note
 - Detection rule tested successfully.
