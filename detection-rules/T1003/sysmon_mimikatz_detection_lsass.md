@@ -30,14 +30,14 @@ level: high
 ## Attack simulation
 - download mimikatz from the [official repository](https://github.com/gentilkiwi/mimikatz)
 - run mimikatz.exe
-- Ask for the debug privilege: privilege::debug
+- Get debug privilege: privilege::debug
 - Extract passwords: sekurlsa::logonpasswords
 
 ## Result
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1003/sysmon_mimikatz_detection_lsass_test.png)
 
 ## Note
 - This detection rule need EventID 10 which can cause a high load (that's why it is disabled in swiftonsecurity's sysmon configuration)
