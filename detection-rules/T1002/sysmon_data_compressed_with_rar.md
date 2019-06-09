@@ -35,7 +35,7 @@ rar a -r test.rar test_folder
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1002/sysmon_data_compressed_with_rar_test.png)
 
 ## Note
 - The detection rule was tested successfully.
