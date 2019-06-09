@@ -42,7 +42,7 @@ bitsadmin.exe  /transfer /Download /priority Foreground https://raw.githubuserco
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/win_process_creation_bitsadmin_download_test.png)
 
 ## Note
 - The detection rule was tested successfully.
