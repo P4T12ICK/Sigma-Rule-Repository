@@ -1,0 +1,19 @@
+title: Data compression with rar 
+status: experimental
+description: Detects the use of Winrar from the command line in order to compress data.
+references:
+    - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1002/T1002.md
+tags:
+    - attack.t1002
+    - attack.exfiltration
+logsource:
+    product: windows
+    service: sysmon
+detection:
+    selection:
+        EventID: 1
+        CommandLine: 'rar* a -r *'
+    condition: selection
+falsepositives:
+    - unknown
+level: high
