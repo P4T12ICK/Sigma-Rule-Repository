@@ -34,8 +34,8 @@ wevtutil cl security
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1070/win_susp_security_eventlog_cleared_test.png)
 
 ## Note
-
+- Detection Rule is tested successfully.
 
