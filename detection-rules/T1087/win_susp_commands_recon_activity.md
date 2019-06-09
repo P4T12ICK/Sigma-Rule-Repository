@@ -1,3 +1,7 @@
+# Testing Documentation win_susp_commands_recon_activity
+
+## Detection Rule
+```
 title: Reconnaissance Activity with Net Command
 status: experimental
 description: Detects a set of commands often used in recon stages by different attack groups
@@ -36,7 +40,35 @@ detection:
             - '*\net1 user net localgroup administrators'
             - netstat -an
     timeframe: 15s
-    condition: selection | count() by host > 4
+    condition: selection | count() by CommandLine > 4
 falsepositives:
     - False positives depend on scripts and administrative tools used in the monitored environment
 level: medium
+
+```
+
+## Attack Simulation
+Run multiple recon commands in a short time:
+```
+whoami
+tasklist
+net time
+nslookup
+nbstat
+```
+
+## Result
+
+Splunk
+
+
+
+## Note
+- The detection rule was tested successfully.
+
+
+
+
+
+
+
