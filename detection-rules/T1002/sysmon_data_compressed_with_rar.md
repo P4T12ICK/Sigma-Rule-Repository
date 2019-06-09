@@ -1,3 +1,7 @@
+# Testing Documentation sysmon_data_compressed_with_rar
+
+## Rule
+```
 title: Data compression with rar 
 status: experimental
 description: Detects the use of Winrar from the command line in order to compress data.
@@ -18,3 +22,21 @@ detection:
 falsepositives:
     - unknown
 level: high
+
+```
+
+## Attack Simulation
+Compress folder with rar command from the command line:
+```
+rar a -r test.rar test_folder
+```
+
+## Result
+
+Splunk
+
+
+
+## Note
+- The detection rule was tested successfully.
+
