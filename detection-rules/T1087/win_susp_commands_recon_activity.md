@@ -61,7 +61,7 @@ nbstat
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1087/win_susp_commands_recon_activity_test.png)
 
 ## Note
 - The detection rule was aggregated by CommandLine, which would detect an recon activity only if the same command was executed multiple times. That's why the aggregation condition was changed to by host.
