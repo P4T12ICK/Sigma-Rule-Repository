@@ -40,7 +40,7 @@ detection:
             - '*\net1 user net localgroup administrators'
             - netstat -an
     timeframe: 15s
-    condition: selection | count() by CommandLine > 4
+    condition: selection | count() by host > 4
 falsepositives:
     - False positives depend on scripts and administrative tools used in the monitored environment
 level: medium
@@ -64,7 +64,7 @@ Splunk
 
 
 ## Note
-- The detection rule was tested successfully.
+- The detection rule was aggregated by CommandLine, which would detect an recon activity only if the same command was executed multiple times. That's why the aggregation condition was changed to by host.
 
 
 
