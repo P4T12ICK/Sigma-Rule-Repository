@@ -39,7 +39,7 @@ netsh advfirewall firewall add rule name="Zoo TCP Port 80" dir=in action=allow p
 
 Splunk
 
-
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1090/win_netsh_fw_add_test.png)
 
 ## Note
 - Added an additional * after netsh because in Splunk are two whitespaces after netsh.
