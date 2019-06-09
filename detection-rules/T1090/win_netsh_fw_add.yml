@@ -16,8 +16,8 @@ logsource:
 detection:
     selection:
         CommandLine:
-            - '*netsh firewall add*'
-            - '*netsh advfirewall* add*'
+            - '*netsh* firewall add*'
+            - '*netsh* advfirewall* add*'
     condition: selection
 falsepositives:
     - Legitimate administration
