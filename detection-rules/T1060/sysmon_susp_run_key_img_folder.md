@@ -49,7 +49,7 @@ reg add HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run /v Test
 
 Splunk
 
-![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/screenshots/sysmon_susp_run_key_img_folder_test.png)
+![](https://github.com/P4T12ICK/Sigma-Rule-Repository/blob/master/detection-rules/T1060/sysmon_rundll32_net_connections.png)
 
 ## Note
 - level was missing in the Sigma detection rule.
