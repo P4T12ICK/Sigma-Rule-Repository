@@ -7,3 +7,5 @@ Sigma is a generic and open signature format that allows you to describe relevan
 ## Credits
 This is a private repository developed by Patrick Bareiss (Twitter: [@bareiss_patrick](https://twitter.com/bareiss_patrick)).
 
+## License
+The detection rules are under the GNU General Public License.
