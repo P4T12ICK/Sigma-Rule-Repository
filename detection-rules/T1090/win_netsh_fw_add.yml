@@ -11,8 +11,8 @@ tags:
 status: experimental
 author: Markus Neis, Patrick Bareiss
 logsource:
-    category: process_creation
     product: windows
+    service: sysmon
 detection:
     selection:
         CommandLine:
