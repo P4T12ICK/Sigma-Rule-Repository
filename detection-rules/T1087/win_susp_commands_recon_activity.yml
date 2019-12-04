@@ -18,15 +18,15 @@ logsource:
 detection:
     selection:
         CommandLine:
-            - tasklist
-            - net time
-            - systeminfo
-            - whoami
-            - nbtstat
-            - net start
+            - *tasklist
+            - *net time
+            - *systeminfo
+            - *whoami
+            - *nbtstat
+            - *net start
             - '*\net1 start'
             - qprocess
-            - nslookup
+            - *nslookup
             - hostname.exe
             - '*\net1 user /domain'
             - '*\net1 group /domain'
@@ -34,7 +34,7 @@ detection:
             - '*\net1 group "Exchange Trusted Subsystem" /domain'
             - '*\net1 accounts /domain'
             - '*\net1 user net localgroup administrators'
-            - netstat -an
+            - *netstat -an
     timeframe: 15s
     condition: selection | count() by host > 4
 falsepositives:
